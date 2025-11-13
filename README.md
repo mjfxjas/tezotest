@@ -1,5 +1,7 @@
 # Taquito boilerplate
 
+> Personal sandbox for playing with Taquito + Parcel. I use it when I need to stand up a quick Tezos demo without scaffolding a full framework project.
+
 ![Built with Taquito][logo]
 
 A minimal framework-agnostic setup for starting developing Tezos DApps quickly with Taquito.
@@ -9,6 +11,12 @@ A minimal framework-agnostic setup for starting developing Tezos DApps quickly w
 ## Dependencies
 1. jQuery - for simple manipulation and traversal of HTML documents.
 2. parcel-bundler - for packaging web applications quickly.
+
+## Repo Status
+
+- Last sanity check: Nov 2025 (`npm install && npm run watch`).
+- Networks tested: Ghostnet.
+- Next steps: swap jQuery for vanilla helpers and add wallet connect (Beacon).
 
 ## Getting Started
 
